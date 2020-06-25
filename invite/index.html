@@ -111,7 +111,7 @@ pre {
 <pre>!HookBot invite <span id="url"></span></pre>
 </main>
 <script id="rendered-js">
-let usp = new URLSearchParams(atob(location.hash.slice(1)));
+let usp = new URLSearchParams(atob(location.search.slice(1)));
 document.querySelector("#url").textContent = usp.get("url");
 document.querySelector("#name").textContent = usp.get("name");
 document.title=`Add ${usp.get("name")} to Discord`;
