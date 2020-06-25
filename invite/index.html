@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Add Bot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTQ0MCAxNDQwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI4MmEyZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI4MmEyZSIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImIiIHgxPSIxMTAuNiIgeDI9IjkzMy4zIiB5MT0iNzIyLjgiIHkyPSI2MDIuNiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0uNDI2NjIgLjYyNjM5IDAgMTMgNDQ3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHhsaW5rOmhyZWY9IiNhIi8+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iMTUyNi41IiB4Mj0iNTk2LjIiIHkxPSItODc4LjciIHkyPSItMTAwNC42IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAgLS40MjY2MiAuNjI2MzkgMCA4MTYgMTI5MSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4bGluazpocmVmPSIjYSIvPjwvZGVmcz48cGF0aCBmaWxsPSIjMmYzMTM2IiBkPSJNMTQ0MCAwYy0xMTIgNDQtMjQwIDYtMzQyIDQwLTkwIDMzLTEzNiAxMDUtMTgxIDE3OHMtOTEgMTQ1LTExNCAyMzhjLTI0IDkzLTI0IDIwNy02NCAyODQtNDAgNzgtMTE5IDEyMC0xOTggMTYzcy0xNTggODUtMjA5IDE1My03NCAxNjEtMTI1IDIyOUE3MzUgNzM1IDAgMDEwIDE0NDBWMHoiLz48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNMzM3LTE0NmM2NiAwIDI5MSA5NyAzNzEgMTk3IDgwIDk5IDEzNSAxMDAgNDggMjQ4LTMxIDUzLTkwIDM0LTE3MiA3NC04MSAzOS0xMTUgMTU2LTE4MSAxNTYtMTMzIDAtMzE0LTkyLTMxNC0yMTVDODkgMjUyIDE5NS04IDIzOS00OWM0My00MCAzMS05NyA5OC05N3oiLz48cGF0aCBmaWxsPSJ1cmwoI2MpIiBkPSJNMTMzIDY1MWMtOTcgNzktMTEwIDMzNSA4IDM3NCAxMjYgNDEgMjg2LTE5MiAyNDEtMzE3LTI5LTgwLTE4My0xMTEtMjQ5LTU3eiIvPjwvc3ZnPg==),
+    url(https://i.imgur.com/j7QrhEd.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+main {
+  width: 300px;
+  max-width: 100%;
+  background: rgb(24, 25, 28);
+  height: 400px;
+  max-height: 100%;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #b9bbbe;
+  overflow-y: auto;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #7289da;
+  border-radius: 3px;
+  padding: 10px 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 120px;
+}
+.button:hover {
+  background-color: #677bc4;
+}
+.button:active {
+  background-color: #5b6eae;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border-radius: 100%;
+}
+main h1,
+main h2,
+main h3,
+main h4,
+main h5 {
+  margin: 0;
+}
+
+main > * {
+  margin: 5px 0 !important;
+  flex-shrink: 0;
+}
+main h1,
+main h2,
+main h3 {
+  color: #fff;
+}
+pre {
+  white-space: nowrap;
+  background: #2f3136;
+  border: 1px solid #202225;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 90%;
+  padding: 8px 7px;
+  border-radius: 4px;
+  color: white;
+}
+</style>
+</head>
+<body>
+<main>
+<div class="avatar" style=""></div>
+<h3 id="name"></h3>
+<p>Connect to Discord</p>
+<br>
+<h3>Step 1:</h3>
+<a href="https://discord.com/api/oauth2/authorize?client_id=725078260190281859&permissions=536922112&scope=bot" class="button">Add Hookbot</a>
+<br>
+<h3>Step 2</h3>
+<p>Send this message:</p>
+<pre>!HookBot invite <span id="url"></span></pre>
+</main>
+<script id="rendered-js">
+let usp = new URLSearchParams(atob(location.hash.slice(1)));
+document.querySelector("#url").textContent = usp.get("url");
+document.querySelector("#name").textContent = usp.get("name");
+document.title=`Add ${usp.get("name")} to Discord`;
+document.querySelector(".avatar").style.backgroundImage = `url(${usp.get(
+  "avatar"
+)})`;
+    </script>
+</body>
+</html>
