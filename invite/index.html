@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Add Bot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<div class="avatar" style=""></div>
+<h3 id="name"></h3>
+<p>Connect to Discord</p>
+<br>
+<h3>Step 1:</h3>
+<a href="https://discord.com/api/oauth2/authorize?client_id=725078260190281859&permissions=536922112&scope=bot" target="_blank" class="button">Add Hookbot</a>
+<br>
+<h3>Step 2</h3>
+<p>Send this message:</p>
+<pre>!HookBot invite <span id="url"></span></pre>
+</main>
+<script id="rendered-js">
+let usp = new URLSearchParams(atob(location.search.slice(1)));
+document.querySelector("#url").textContent = usp.get("url");
+document.querySelector("#name").textContent = usp.get("name");
+document.title=`Add ${usp.get("name")} to Discord`;
+document.querySelector(".avatar").style.backgroundImage = `url(${usp.get(
+  "avatar"
+)})`;
+    </script>
+</body>
+</html>
