@@ -1,0 +1,3 @@
+- [Home](/)
+- [Development](dev.md)
+- [Invite HookBot](https://discord.com/api/oauth2/authorize?client_id=725078260190281859&permissions=536922112&scope=bot)
