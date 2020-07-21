@@ -54,7 +54,7 @@ The POSTed JSON object must have the following keys:
 # Invites
 HookBot bots don't have an invite page in quite the same way that normal bots do, but to create a link with instructions to invite your bot, use the form below.
 
-<form action="/invite" method="GET" style="display:grid;grid-gap:0.5rem">
+<form action="./invite" method="GET" style="display:grid;grid-gap:0.5rem">
   <input type="text" name="name" placeholder="Bot Name...">
   <input type="url" name="url" placeholder="Bot Manifest URL...">
   <input type="url" name="avatar" placeholder="Bot Avatar URL...">
