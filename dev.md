@@ -14,10 +14,10 @@ It has the following keys:
 For example:
 ```json
 {
-  avatar:
+  "avatar":
     "https://cdn.glitch.com/b57cb370-c9a0-4310-8ca3-11106d0c9ddc%2Fphoto-1549634377-5831ba549c84.jfif?v=1573580879606",
-  name: "Moth Bot",
-  webhook: "https://moth-bot.glitch.me/message"
+  "name": "Moth Bot",
+  "webhook": "https://moth-bot.glitch.me/message"
 }
 ```
 
@@ -35,11 +35,11 @@ The messages POSTed to you are JSON objects with the following keys:
 For example:
 ```json
 {
-  content: '',
-  response: 'https://hook-bot-backend.glitch.me/webhook/129fbc4a-baac-4870-958a-bc2213f3fb10',
-  server: '722963069294346352',
-  user: '642358695652753418',
-  manager: true
+  "content: "",
+  "response: "https://hook-bot-backend.glitch.me/webhook/129fbc4a-baac-4870-958a-bc2213f3fb10",
+  "server": "722963069294346352",
+  "user": "642358695652753418",
+  "manager": true
 }
 ```
 
