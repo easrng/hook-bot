@@ -103,36 +103,9 @@
       </div>
     </div>
   </div>
-  <h1>Commands:</h1>
-  <div class="sc-1yfe1q7-0 ftXluy" style="border-color: rgb(114, 137, 218);">
-    <div class="sc-1n3purm-0 edBgWt"><span class="sc-1n3purm-1 etgCdg">
-        <div class="sc-1d0s8bx-0 gRSkCW">invite</div>
-      </span>
-      <div class="sc-1n3purm-3 jrVfAi">
-        <div class="sc-1d0s8bx-0 gRSkCW">Invites a HookBot bot.
-          Requires "Manage Server" permission.
-          Usage: <code class="tvf2g8-0 jJvfde">!HookBot invite url</code> where <code class="tvf2g8-0 jJvfde">url</code> is the link to a bot manifest.</div>
-      </div>
-    </div>
-  </div>
-  <div class="sc-1yfe1q7-0 ftXluy" style="border-color: rgb(114, 137, 218);">
-    <div class="sc-1n3purm-0 edBgWt"><span class="sc-1n3purm-1 etgCdg">
-        <div class="sc-1d0s8bx-0 gRSkCW">kick</div>
-      </span>
-      <div class="sc-1n3purm-3 jrVfAi">
-        <div class="sc-1d0s8bx-0 gRSkCW">Kicks a HookBot bot.
-          Usage: <code class="tvf2g8-0 jJvfde">!HookBot kick prefix</code> where <code class="tvf2g8-0 jJvfde">prefix</code> is the prefix of a HookBot bot.
-Please note that the bot may be able to send messages for a few more minutes after you kick it, it will no longer be able to read messages.</div>
-      </div>
-    </div>
-  </div>
-  <div class="sc-1yfe1q7-0 ftXluy" style="border-color: rgb(114, 137, 218);">
-    <div class="sc-1n3purm-0 edBgWt"><span class="sc-1n3purm-1 etgCdg">
-        <div class="sc-1d0s8bx-0 gRSkCW">help</div>
-      </span>
-      <div class="sc-1n3purm-3 jrVfAi">
-        <div class="sc-1d0s8bx-0 gRSkCW">Shows this help text.</div>
-      </div>
-    </div>
-  </div>
-</div>
+<div>
+
+
+
+# Commands
+It is a pain to keep the command list up to date. Just do `!HookBot help`.
